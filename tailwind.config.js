@@ -20,6 +20,9 @@ export default {
       },
       fontFamily: {
         "poppins": "'Poppins', sans-serif"
+      },
+      transitionProperty: {
+        'width': 'width',
       }
     },
   },
