@@ -21,7 +21,7 @@ const Header = () => {
         <img src={logo} alt="Logo" />
       </Link>
 
-      <button data-aos="fade-left" onClick={openNav} className="text-white">
+      <button data-aos="fade-left" data-aos-duration="1700" onClick={openNav} className="text-blue-50">
         <BiMenuAltRight size={45} />
       </button>
 

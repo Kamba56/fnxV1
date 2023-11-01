@@ -9,8 +9,12 @@
     @apply font-poppins;
   }
 
-  .body {
-    @apply text-blue-50;
+  body {
+    @apply text-blue-50 overflow-x-hidden;
+  }
+
+  html {
+    @apply overflow-x-hidden;
   }
 
   img {
