@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col gap-16 bg-blue-50 text-white py-10 px-6">
+    <footer className="flex flex-col gap-16 bg-blue-50 text-white py-20 px-[5%]">
       <div className="flex flex-col gap-5 lg:flex-row items-start lg:justify-between mb-8">
         <Link to='/' className="w-16">
           <img src={logo} alt="Logo" />
