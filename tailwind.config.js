@@ -17,6 +17,9 @@ export default {
       },
       backgroundImage: {
         'homeheadline': "url('../images/headline.png')"
+      },
+      fontFamily: {
+        "poppins": "'Poppins', sans-serif"
       }
     },
   },

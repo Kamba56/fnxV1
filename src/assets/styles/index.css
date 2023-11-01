@@ -3,3 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-poppins;
+  }
+
+  .body {
+    @apply text-blue-50;
+  }
+
+  img {
+    @apply block w-full h-auto m-[0_auto];
+  }
+}

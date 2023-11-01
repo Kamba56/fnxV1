@@ -16,7 +16,7 @@ const Header = () => {
   }
 
   return (
-    <header className="flex justify-between items-center p-8 py-6 lg:py-10 lg:p-16 bg-transparent z-[100]">
+    <header className="flex justify-between items-center p-8 py-6 lg:py-10 lg:p-16 bg-transparent absolute top-0 w-full z-[100]">
       <Link to='/' className="w-16">
         <img src={logo} alt="Logo" />
       </Link>
