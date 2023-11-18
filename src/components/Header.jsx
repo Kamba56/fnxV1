@@ -31,7 +31,7 @@ const Header = () => {
         </button>
         <ul className="flex flex-col items-start gap-6 text-2xl font-medium">
           <li>
-            <Link>Services</Link>
+            <Link to='/services'>Services</Link>
           </li>
 
           <li>
@@ -39,11 +39,11 @@ const Header = () => {
           </li>
 
           <li>
-            <Link>Values</Link>
+            <Link to='values'>Values</Link>
           </li>
 
           <li>
-            <Link>Team</Link>
+            <Link to='team'>Team</Link>
           </li>
 
           <li>

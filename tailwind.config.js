@@ -16,7 +16,10 @@ export default {
         }
       },
       backgroundImage: {
-        'homeheadline': "url('../images/headline.png')"
+        'homeheadline': "url('../images/headline.png')",
+        'services': "url('../images/services.png')",
+        'values': "url('../images/values.png')",
+        'team': "url('../images/team.png')",
       },
       fontFamily: {
         "poppins": "'Poppins', sans-serif"

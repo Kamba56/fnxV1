@@ -4,6 +4,9 @@ import Home from "./pages/Home";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Services from "./pages/Services";
+import Values from "./pages/Values";
+import Team from "./pages/Team";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +16,18 @@ const router = createBrowserRouter([
       {
         path: '',
         element: <Home />
+      },
+      {
+        path:'services',
+        element: <Services />
+      },
+      {
+        path: 'values',
+        element: <Values />
+      },
+      {
+        path: 'team',
+        element: <Team />
       }
     ]
   }
