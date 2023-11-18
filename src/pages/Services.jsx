@@ -3,7 +3,7 @@ import TwinBtn from "../components/TwinBtn"
 
 const Services = () => {
   return (<main>
-    <OHeadline image="services" title="Our AIFMD Services" text="Expect more from your Management Company" />
+    <OHeadline image="bg-services" title="Our AIFMD Services" text="Expect more from your Management Company" />
     <div className="flex flex-col lg:flex-row gap-14 p-8 py-20 max-w-7xl m-auto">
       <TwinBtn />
 

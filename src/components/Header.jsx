@@ -31,23 +31,23 @@ const Header = () => {
         </button>
         <ul className="flex flex-col items-start gap-6 text-2xl font-medium">
           <li>
-            <Link to='/services'>Services</Link>
+            <Link onClick={closeNav} to='/services'>Services</Link>
           </li>
 
           <li>
-            <Link>About Us</Link>
+            <Link onClick={closeNav}>About Us</Link>
           </li>
 
           <li>
-            <Link to='values'>Values</Link>
+            <Link onClick={closeNav} to='values'>Values</Link>
           </li>
 
           <li>
-            <Link to='team'>Team</Link>
+            <Link onClick={closeNav} to='team'>Team</Link>
           </li>
 
           <li>
-            <Link>Contact</Link>
+            <Link onClick={closeNav}>Contact</Link>
           </li>
         </ul>
       </div>)}

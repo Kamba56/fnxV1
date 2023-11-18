@@ -4,7 +4,7 @@ import TwinBtn from "../components/TwinBtn";
 const Values = () => {
   return (
     <main>
-      <OHeadline image="values" title="Our Values" text="In an industry paralysed by complexity and cost, our values are simple but they are crucial and core to our undertaking." />
+      <OHeadline image="bg-values" title="Our Values" text="In an industry paralysed by complexity and cost, our values are simple but they are crucial and core to our undertaking." />
 
       <div className="flex flex-col lg:flex-row gap-14 p-8 py-20 max-w-7xl m-auto">
         <TwinBtn />
