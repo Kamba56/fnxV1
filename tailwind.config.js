@@ -20,6 +20,8 @@ export default {
         'services': "url('../images/services.png')",
         'values': "url('../images/values.png')",
         'team': "url('../images/team.png')",
+        'contact': "url('../images/contact.png')",
+        'back': "url('../images/back.svg')"
       },
       fontFamily: {
         "poppins": "'Poppins', sans-serif"

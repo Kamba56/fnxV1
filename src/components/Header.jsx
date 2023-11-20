@@ -47,7 +47,7 @@ const Header = () => {
           </li>
 
           <li>
-            <Link onClick={closeNav}>Contact</Link>
+            <Link to="contact" onClick={closeNav}>Contact</Link>
           </li>
         </ul>
       </div>)}

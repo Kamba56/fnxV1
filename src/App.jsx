@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import Services from "./pages/Services";
 import Values from "./pages/Values";
 import Team from "./pages/Team";
+import Contact from "./pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: 'team',
         element: <Team />
+      },
+      {
+        path: 'contact',
+        element: <Contact />
       }
     ]
   }
