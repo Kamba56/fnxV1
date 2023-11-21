@@ -2,6 +2,8 @@ import { useState } from "react";
 import Member from "../components/Member";
 import OHeadline from "../components/OtherHeadline"
 import Player from "../components/Player";
+import mark from "../assets/images/mark.jpeg"
+import andy from "../assets/images/andy.png"
 
 const Team = () => {
   const [show, setShow] = useState(false);
@@ -23,7 +25,8 @@ const Team = () => {
       about: "Mark has been working in Financial Services since 1994 working in senior roles with various investors for Investment Selection and Due Diligence. Prior to FNX, he has overseen hundreds of managers and fund launches across most asset classes. He has acted as COO, Advisor and Non-Executive Director to multiple companies such as Blackstar Asset Management, AON and AXA Investment Managers. Mark is a Fellow of the Institute of Chartered Accountants in Ireland and a Chartered Alternative Investment Analyst.  ",
       mail: "mark.flanagan@fnx.ie",
       phone: "+353 1963 7091",
-      linkedin: "#"
+      linkedin: "#",
+      image: mark
     },
     {
       name: "Andrew J.S. Gebhardt",
@@ -31,7 +34,8 @@ const Team = () => {
       about: "Andrew moved into Finance from Civil and Nautical Engineering in 1995. Over the subsequent 20 years Andrew worked for a number of Tier 1 institutions in which he developed and implemented Futures and Options strategies based on Technical and Statistical Methods. During the 2007 Credit Crisis Andrew managed the dismantling of a significant defaulting options positions on behalf of SocGen (Newedge). In 2010 Andrew co-founded Finex LLP and has grown the partnership into a UCITS and AIFM firm. In 2015 Andrew won the Technical Analyst Award. Andrew holds a BEng in Civil Engineering Design and Management from Cardiff University and holds certificates from the FCA in Client dealing and Partner functions.",
       mail: "andrew.gebhardt@fnx.ie",
       phone: "+353 1963 7092",
-      linkedin: ""
+      linkedin: "",
+      image: andy
     },
     {
       name: "Mark Fitzpatrick",
