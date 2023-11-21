@@ -17,7 +17,7 @@ const Player = (props) => {
         </button>
       </div>
 
-      <article className="flex flex-col items-center gap-10 pt-5 px-6 max-w-6xl m-auto overflow-visible">
+      <article className="flex flex-col items-center gap-10 pt-5 px-6 max-w-6xl m-auto">
         <figure className="w-full max-w-md h-auto max-h-[280px] rounded-xl overflow-hidden bg-transparent">
           <img src={avatar} alt="Avatar" />
         </figure>
@@ -27,8 +27,9 @@ const Player = (props) => {
 
         <p className="text-lg">{member.about}</p>
 
-        <h3 className="font-semibold text-xl">Contact Mark</h3>
+        
         <ul className="flex flex-col gap-4 self-start">
+          <li><h3 className="font-semibold text-xl self-start">Contact</h3></li>
           <li className="text-lg underline">{member.mail}</li>
           <li className="text-lg underline">{member.phone}</li>
           <a href={member.linkedin} className="text-lg underline">Linkedin Profile</a>

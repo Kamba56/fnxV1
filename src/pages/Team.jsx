@@ -62,7 +62,7 @@ const Team = () => {
   
 
   return (
-    <main>
+    <main className="relative">
       <OHeadline image="bg-team" title="Our Team" text="Our people make our company. They can make yours too." />
 
       <div className="p-8 py-20 max-w-[1366px] m-auto flex justify-center gap-6 flex-wrap">
