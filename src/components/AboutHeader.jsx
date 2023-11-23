@@ -44,19 +44,19 @@ const AboutHeader = () => {
           <li>
             <NavLink className={({isActive}) => (
               isActive ? "text-brown-50 underline" : "text-blue-50"
-            )} onClick={closeNav} to='values'>Values</NavLink>
+            )} onClick={closeNav} to='/values'>Values</NavLink>
           </li>
 
           <li>
             <NavLink className={({isActive}) => (
               isActive ? "text-brown-50 underline" : "text-blue-50"
-            )} onClick={closeNav} to='team'>Team</NavLink>
+            )} onClick={closeNav} to='/team'>Team</NavLink>
           </li>
 
           <li>
             <NavLink className={({isActive}) => (
               isActive ? "text-brown-50 underline" : "text-blue-50"
-            )} to="contact" onClick={closeNav}>Contact</NavLink>
+            )} to="/contact" onClick={closeNav}>Contact</NavLink>
           </li>
         </ul>
       </div>)}

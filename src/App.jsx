@@ -8,6 +8,10 @@ import Services from "./pages/Services";
 import Values from "./pages/Values";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
+import AboutRoot from "./pages/AboutRoot";
+import Disclaimer from "./pages/DIsclaimer";
+import Sustain from "./pages/Sustain";
+import Privacy from "./pages/Privacy";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +37,24 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact />
+      }
+    ]
+  },
+  {
+    path: '/about',
+    element: <AboutRoot />,
+    children: [
+      {
+        path: 'disclaimer',
+        element: <Disclaimer />
+      },
+      {
+        path: 'privacy',
+        element: <Privacy />
+      },
+      {
+        path: 'sustainability',
+        element: <Sustain />
       }
     ]
   }
