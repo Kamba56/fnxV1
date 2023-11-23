@@ -12,7 +12,8 @@ export default {
           50: '#002D3C'
         },
         brown: {
-          50: '#9F836C'
+          50: '#9F836C',
+          100: '#7E624B'
         }
       },
       backgroundImage: {
@@ -21,10 +22,10 @@ export default {
         'values': "url('../images/values.png')",
         'team': "url('../images/team.png')",
         'contact': "url('../images/contact.png')",
-        'back': "url('../images/back.svg')"
+        'back': "url('../images/brown.svg')"
       },
       fontFamily: {
-        "poppins": "'Poppins', sans-serif"
+        "pop": ["pop", "sans-serif"]
       }
     },
   },

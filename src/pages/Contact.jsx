@@ -29,7 +29,7 @@ const Contact = () => {
               <textarea name="message" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-32 lg:w-2/3 pl-4" placeholder="Write your message here"></textarea>
             </div>
 
-            <button type="submit" className="font-semibold text-lg bg-brown-50 rounded-md py-4 px-10 self-end text-white">Send Message</button>
+            <button type="submit" className="font-semibold text-lg bg-brown-50 hover:bg-brown-100 hover:shadow-lg rounded-md py-4 px-10 self-end text-white">Send Message</button>
           </form>
           <article className="flex flex-col gap-5 items-center text-white text-center lg:self-end pb-20">
             <h2 className="font-semibold text-2xl">FNX Dublin Limited</h2>
@@ -41,7 +41,7 @@ const Contact = () => {
           </article>
         </section>
       </section>
-      <div className="absolute bottom-0 right-0 w-full h-full z-[-1] bg-back bg-no-repeat bg-cover bg-bottom"></div>
+      <div className="absolute bottom-0 right-0 w-full h-full z-[-1] bg-back bg-no-repeat bg-contain bg-bottom"></div>
     </main>
   )
 };

@@ -1,10 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/images/log.svg";
+import logo from "../assets/images/blacklogo.svg";
 import {BiMenuAltRight} from "react-icons/bi";
 import { GrClose } from "react-icons/gr";
 import { useState } from "react";
 
-const Header = () => {
+const AboutHeader = () => {
   const [nav, setNav] = useState(false);
 
   const openNav = () => {
@@ -21,11 +21,11 @@ const Header = () => {
         <img src={logo} alt="Logo" />
       </Link>
 
-      <button data-aos="fade-left" onClick={openNav} className="text-white">
+      <button data-aos="fade-left" onClick={openNav} className="text-blue-50">
         <BiMenuAltRight size={45} />
       </button>
 
-      {nav && (<div data-aos="fade-down-left" className="w-[50%] md:w-[33%] bg-white fixed top-0 right-0 z-[1000] h-screen flex items-center pl-10 lg:pl-16">
+      {nav && (<div data-aos="fade-down-left" className="w-[50%] md:w-[33%] shadow-inner bg-white fixed top-0 right-0 z-[1000] h-screen flex items-center pl-10 lg:pl-16">
         <button onClick={closeNav} className="absolute top-6 right-6">
           <GrClose size={30} />
         </button>
@@ -64,4 +64,4 @@ const Header = () => {
   )
 };
 
-export default Header;
+export default AboutHeader;
