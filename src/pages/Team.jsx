@@ -70,7 +70,7 @@ const Team = () => {
             {members[0].image ? <img src={members[0].image} alt="Avatar" /> : <img src={avatar} alt="Avatar" />}
           </figure>
 
-          <h3 className="font-bold text-2xl">{members[0].name}</h3>
+          <h3 className="font-medium text-2xl">{members[0].name}</h3>
           <p className="text-lg">{members[0].position}</p>
         </article>
 

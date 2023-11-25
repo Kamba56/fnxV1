@@ -23,14 +23,14 @@ const Player = (props) => {
             <img src={avatar} alt="Avatar" />
           </figure>
 
-          <h3 className="font-bold text-2xl">{member.name}</h3>
+          <h3 className="font-medium text-2xl">{member.name}</h3>
           <p className="text-lg">{member.position}</p>
 
           <p className="text-lg">{member.about}</p>
 
           
           <ul className="flex flex-col gap-4 self-start">
-            <li><h3 className="font-semibold text-xl self-start">Contact</h3></li>
+            <li><h3 className="font-medium text-xl self-start">Contact</h3></li>
             <li className="text-lg underline">{member.mail}</li>
             <a href={member.linkedin} className="text-lg underline">Linkedin Profile</a>
           </ul>

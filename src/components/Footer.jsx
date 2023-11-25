@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/images/log.svg";
 import Button from "./Button";
 
@@ -11,7 +11,7 @@ const Footer = () => {
         </Link>
 
         <div className="flex flex-col gap-6">
-          <h3 className="font-semibold text-2xl">Send us an email or give us your information and we wil get back to you.</h3>
+          <h3 className="font-medium text-2xl">Send us an email or give us your information and we wil get back to you.</h3>
           <div className="w-fit self-end">
             <Button name="Contact Us" color="brown" linkTo="/contact" />
           </div>
@@ -19,16 +19,16 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col gap-8">
-        <p className="text-blue-10 text-lg font-normal">FNX Dublin Limited is registered in the Republic of Ireland with <span className="font-bold">Company Number <span className="text-brown-50">682114</span> </span>. FNX Dublin Limited is authorised under AIFMD by Central Bank of Ireland with <span className="font-bold">registration number <span className="text-brown-50">C441669</span> </span>.</p>
+        <p className="text-blue-10 text-lg">FNX Dublin Limited is registered in the Republic of Ireland with <span className="font-semibold">Company Number <span className="text-brown-50">682114</span> </span>. FNX Dublin Limited is authorised under AIFMD by Central Bank of Ireland with <span className="font-semibold">registration number <span className="text-brown-50">C441669</span> </span>.</p>
 
-        <ul className="flex flex-col gap-3 font-bold text-lg">
-          <Link to='/about/discalimer'>DISCLAIMER</Link>
+        <ul className="flex flex-col gap-3 font-semibold text-lg">
+          <NavLink to='/about/disclaimer'>DISCLAIMER</NavLink>
           <Link to='/about/privacy'>PRIVACY POLICY</Link>
           <Link to='/about/sustainability'>SFDR  Disclosures</Link>
         </ul>
       </div>
 
-      <p className="font-semibold text-sm">©️ 2023 FNX Dublin Limited, All Rights Reserved.</p>
+      <p className="font-medium text-sm">©️ 2023 FNX Dublin Limited, All Rights Reserved.</p>
     </footer>
   )
 };

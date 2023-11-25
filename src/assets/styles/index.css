@@ -11,11 +11,11 @@
 
 @layer base {
   * {
-    @apply font-pop tracking-wider;
+    @apply font-pop tracking-wider font-light;
   }
 
   .body {
-    @apply text-blue-50;
+    @apply text-blue-50 font-light;
   }
 
   img {

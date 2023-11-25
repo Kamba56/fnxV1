@@ -29,7 +29,7 @@ const AboutHeader = () => {
         <button onClick={closeNav} className="absolute top-6 right-6">
           <GrClose size={30} />
         </button>
-        <ul className="flex flex-col items-start gap-6 text-2xl font-medium italic">
+        <ul className="flex flex-col items-start gap-6 text-2xl font-light">
 
           <li>
             <NavLink className={({isActive}) => (
