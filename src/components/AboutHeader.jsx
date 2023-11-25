@@ -17,16 +17,16 @@ const AboutHeader = () => {
 
   return (
     <header className="flex justify-between items-center p-8 py-6 lg:py-10 lg:p-16 bg-transparent absolute top-0 w-full z-[100]">
-      <Link data-aos="fade-right" to='/' className="w-16">
+      <Link data-aos="fade-right" data-aos-duration="1700" to='/' className="w-16">
         <img src={logo} alt="Logo" />
       </Link>
 
-      <button data-aos="fade-left" onClick={openNav} className="text-blue-50">
+      <button data-aos="fade-left" data-aos-duration="1700" onClick={openNav} className="text-blue-50">
         <BiMenuAltRight size={45} />
       </button>
 
-      {nav && (<div data-aos="fade-down-left" className="w-[50%] md:w-[33%] shadow-inner bg-white fixed top-0 right-0 z-[1000] h-screen flex items-center pl-10 lg:pl-16">
-        <button onClick={closeNav} className="absolute top-6 right-6">
+      {nav && (<div data-aos="fade-down-left" data-aos-duration="2000" className="w-[50%] md:w-[33%] shadow-inner bg-white fixed top-0 right-0 z-[1000] h-screen flex items-center pl-10 lg:pl-16">
+        <button onClick={closeNav} className="absolute top-10 right-10">
           <GrClose size={30} />
         </button>
         <ul className="flex flex-col items-start gap-6 text-2xl font-light">

@@ -4,6 +4,7 @@ import OHeadline from "../components/OtherHeadline"
 import Player from "../components/Player";
 import mark from "../assets/images/mark.jpeg"
 import andy from "../assets/images/andy.png"
+import avatar from "../assets/images/avatar.png";
 
 const Team = () => {
   const [show, setShow] = useState(false);
@@ -64,7 +65,7 @@ const Team = () => {
     <main className="relative pb-20">
       <OHeadline image="bg-team" title="Our Team" text="Our people make our company. They can make yours too." />
 
-      <div className="flex flex-col gap-10 items-center">
+      <div className="flex flex-col gap-10 items-center pt-32">
         <article className="max-w-[390px] min-w-72 w-full flex-col items-center hover:shadow-lg gap-3 flex cursor-pointer" onClick={() => {handlePop(0)}}>
           <figure className="w-full h-auto max-h-[258px] rounded-xl overflow-hidden bg-transparent">
             {members[0].image ? <img src={members[0].image} alt="Avatar" /> : <img src={avatar} alt="Avatar" />}

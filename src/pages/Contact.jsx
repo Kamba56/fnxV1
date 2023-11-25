@@ -11,25 +11,25 @@ const Contact = () => {
           <form action="#" className="flex flex-col gap-8 bg-white w-full max-w-3xl p-10 shadow-xl rounded-xl">
             <div className="flex flex-col gap-3 lg:flex-row lg:justify-between lg:gap-11">
               <label className="font-medium text-lg lg:w-1/3" htmlFor="name">Your full name</label>
-              <input type="text" name="name" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-14 lg:w-2/3 pl-4" placeholder="John Doe" />
+              <input data-aos="fade-right" data-aos-duration="1200" type="text" name="name" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-14 lg:w-2/3 pl-4" placeholder="John Doe" />
             </div>
 
             <div className="flex flex-col gap-3 lg:flex-row lg:gap-11">
               <label className="font-medium text-lg lg:w-1/3" htmlFor="email">Your email</label>
-              <input type="email" name="email" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-14 lg:w-2/3 pl-4" placeholder="johndoe@example.com" />
+              <input data-aos="fade-right" data-aos-duration="1200" type="email" name="email" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-14 lg:w-2/3 pl-4" placeholder="johndoe@example.com" />
             </div>
 
             <div className="flex flex-col gap-3 lg:flex-row lg:gap-11">
               <label className="font-medium text-lg lg:w-1/3" htmlFor="website">Company website</label>
-              <input type="text" name="website" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-14 lg:w-2/3 pl-4" placeholder="example.com" />
+              <input data-aos="fade-right" data-aos-duration="1200" type="text" name="website" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-14 lg:w-2/3 pl-4" placeholder="example.com" />
             </div>
 
             <div className="flex flex-col gap-3 lg:flex-row lg:gap-11">
               <label className="font-medium text-lg lg:w-1/3" htmlFor="message">Message</label>
-              <textarea name="message" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-32 lg:w-2/3 pl-4" placeholder="Write your message here"></textarea>
+              <textarea data-aos="fade-right" data-aos-duration="1200" name="message" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-32 lg:w-2/3 pl-4" placeholder="Write your message here"></textarea>
             </div>
 
-            <button type="submit" className="font-medium text-lg bg-brown-50 hover:bg-brown-100 hover:shadow-lg rounded-md py-4 px-10 self-end text-white">Send Message</button>
+            <button data-aos="fade-right" data-aos-duration="1200" type="submit" className="font-medium text-lg bg-brown-50 hover:bg-brown-100 hover:shadow-lg rounded-md py-4 px-10 self-end text-white">Send Message</button>
           </form>
           <article className="flex flex-col gap-5 items-center text-white text-center lg:self-end pb-20">
             <h2 className="font-medium text-2xl">FNX Dublin Limited</h2>
