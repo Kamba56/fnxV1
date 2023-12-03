@@ -22,6 +22,7 @@ export default {
         'values': "url('../images/values.png')",
         'team': "url('../images/team.png')",
         'contact': "url('../images/contact.png')",
+        'contactmd': "url('../images/contactmd.svg')",
         'back': "url('../images/brown.svg')"
       },
       fontFamily: {

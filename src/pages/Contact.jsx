@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <main className="bg-black pt-40 min-h-screen bg-contact pb-16 bg-no-repeat bg-cover bg-center relative z-[-2]">
-      <section className="flex flex-col gap-20 m-auto p-7 z-30">
+    <main className="bg-black pt-40 min-h-screen bg-contact pb-16 bg-no-repeat bg-cover bg-left lg:bg-center relative z-[-2]">
+      <section className="flex flex-col gap-20 m-auto p-7 z-30 w-full max-w-[1440px] px-[5%]">
         <section className="flex flex-col gap-10 text-white self-center items-center">
           <h1 className="font-medium text-4xl">Contact our FNX team</h1>
           <h3 className="text-xl font-medium">Our team is very happy to answer your questions. <br />Fill out the form and we’ll be in touch as soon as possible</h3>
@@ -31,7 +31,7 @@ const Contact = () => {
 
             <button data-aos="fade-right" data-aos-duration="1200" type="submit" className="font-medium text-lg bg-brown-50 hover:bg-brown-100 hover:shadow-lg rounded-md py-4 px-10 self-end text-white">Send Message</button>
           </form>
-          <article className="flex flex-col gap-5 items-center text-white text-center lg:self-end pb-20">
+          <article className="flex flex-col gap-5 items-center text-white text-center lg:self-end pb-0">
             <h2 className="font-medium text-2xl">FNX Dublin Limited</h2>
             <p className="text-lg">Unit 1, Block 1</p>
             <p className="text-lg">Northwood Court</p>
@@ -41,7 +41,7 @@ const Contact = () => {
           </article>
         </section>
       </section>
-      <div className="absolute bottom-0 right-0 w-full h-full z-[-1] bg-back bg-no-repeat bg-contain bg-bottom"></div>
+      <div className="absolute bottom-0 right-0 w-full h-full z-[-1] lg:bg-back bg-contactmd bg-no-repeat bg-contain bg-bottom"></div>
     </main>
   )
 };
