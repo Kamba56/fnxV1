@@ -4,17 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face { 
-  font-family: "pop"; 
-  src: url("../fonts/helvetica-47-light-condensed-587ebd7b5a6f6.ttf"); 
-} 
-
 @layer base {
   * {
     @apply font-pop tracking-wider font-light;
   }
 
-  .body {
+  body {
     @apply text-blue-50 font-light;
   }
 

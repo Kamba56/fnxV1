@@ -25,7 +25,7 @@ export default {
         'back': "url('../images/brown.svg')"
       },
       fontFamily: {
-        "pop": ["pop", "sans-serif"]
+        "pop": ["Poppins", "sans-serif"]
       }
     },
   },
