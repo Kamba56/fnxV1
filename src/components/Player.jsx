@@ -6,36 +6,22 @@ const Player = (props) => {
   const { member, closePop } = props;
 
   return (
-    <main className="fixed top-0 h-screen w-full overflow-scroll bg-[rgba(0,_0,_0,_0.40)] px-[4%] py-12 z-[10000]">
-      <div data-aos="flip-right" data-aos-duration="1200" className="bg-white max-w-6xl m-auto">
-        <div className="flex justify-between items-center p-8 py-6 lg:py-10 lg:p-16">
-          <figure className="w-16">
-            <img src={blacklogo} alt="Logo" />
-          </figure>
+    <main data-aos="fade-down-left" className="fixed top-0 h-screen w-full text-white overflowy-auto bg-blue-50 px-[5%] flex items-center flex-col lg:flex-row text-center gap-8 lg:text-left lg:py-12 pt-20 z-[10000] cursor-close" onClick={closePop}>
+      <div className="flex flex-col gap-2 lg:w-1/4">
+        <h3 className="font-semibold text-2xl">{member.name}</h3>
+        <p className="font-normal text-lg">{member.position}</p>
+      </div>
 
-          <button className="" onClick={closePop}>
-            <GrClose size={30} />
-          </button>
-        </div>
+      <div className="flex flex-col gap-6 lg:w-3/4">
+        <p className="text-lg mb-4">{member.about}</p>
 
-        <article className="flex flex-col items-center gap-10 pt-5 px-6 max-w-5xl h-auto pb-14 m-auto">
-          <figure className="w-full max-w-md h-auto max-h-[280px] rounded-xl overflow-hidden bg-transparent">
-            {member.image ? <img src={member.image} alt="Avatar" /> : <img src={avatar} alt="Avatar" />}
-          </figure>
-          <div className="flex flex-col gap-4 items-center">
-            <h3 className="font-medium text-2xl">{member.name}</h3>
-            <p className="text-lg">{member.position}</p>
-          </div>
-
-          <p className="text-lg">{member.about}</p>
-
-          
-          <ul className="flex flex-col gap-4 self-start">
-            <li data-aos="fade-right" data-aos-duration="1700"><h3 className="font-semibold text-xl self-start">Contact</h3></li>
-            <li data-aos="fade-right" data-aos-duration="1700" className="text-lg underline">{member.mail}</li>
-            <a data-aos="fade-right" data-aos-duration="1700" href={member.linkedin} className="text-lg underline">Linkedin Profile</a>
-          </ul>
-        </article>
+        <h3 className="font-semibold text-2xl">Contact {member.name.split(" ")[0]}</h3>
+        <ul className="flex flex-col gap-3 text-lg">
+          <li>{member.mail}</li>
+          <li>
+            <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="underline">LinkedIn</a>
+          </li>
+        </ul>
       </div>
     </main>
   )

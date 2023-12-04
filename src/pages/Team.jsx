@@ -34,7 +34,7 @@ const Team = () => {
       about: "Andrew moved into Finance from Civil and Nautical Engineering in 1995. Over the subsequent 20 years Andrew worked for a number of Tier 1 institutions in which he developed and implemented Futures and Options strategies based on Technical and Statistical Methods. During the 2007 Credit Crisis Andrew managed the dismantling of a significant defaulting options positions on behalf of SocGen (Newedge). In 2010 Andrew co-founded Finex LLP and has grown the partnership into a UCITS and AIFM firm. In 2015 Andrew won the Technical Analyst Award. Andrew holds a BEng in Civil Engineering Design and Management from Cardiff University and holds certificates from the FCA in Client dealing and Partner functions.",
       mail: "andrew.gebhardt@fnx.ie",
       linkedin: "",
-      image: andy
+      image: ""
     },
     {
       name: "Mark Fitzpatrick",
@@ -62,20 +62,20 @@ const Team = () => {
   
 
   return (
-    <main className="relative pb-20">
+    <main className="relative pb-20 text-center">
       <OHeadline image="bg-team" title="Our Team" text="Our people make our company. They can make yours too." />
 
       <div className="flex flex-col gap-10 items-center pt-32">
-        <article className="max-w-[390px] min-w-72 w-full flex-col items-center hover:shadow-lg gap-3 flex cursor-pointer" onClick={() => {handlePop(0)}}>
-          <figure className="w-full h-auto max-h-[258px] rounded-xl overflow-hidden bg-transparent">
+        <article className="max-w-[390px] min-w-72 w-full flex-col items-center hover:shadow-lg gap-3 flex cursor-pointer pb-7" onClick={() => {handlePop(0)}}>
+          <figure className="w-full h-auto max-h-[258px] rounded-lg shadow-md overflow-hidden bg-transparent">
             {members[0].image ? <img src={members[0].image} alt="Avatar" /> : <img src={avatar} alt="Avatar" />}
           </figure>
 
-          <h3 className="font-medium text-2xl">{members[0].name}</h3>
+          <h3 className="font-medium text-2xl text-center">{members[0].name}</h3>
           <p className="text-lg">{members[0].position}</p>
         </article>
 
-        <div className="p-8 py-20 px-[5%] w-full m-auto flex justify-center gap-6 flex-wrap">
+        <div className="p-8 py-20 px-[4%] w-full m-auto flex justify-center gap-10 flex-wrap">
           {
             members.map((member, i) => {
               if (i == 0) {

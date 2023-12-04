@@ -27,6 +27,9 @@ export default {
       },
       fontFamily: {
         "pop": ["Poppins", "sans-serif"]
+      },
+      cursor: {
+        'close': "url('../images/cursor.png'), pointer"
       }
     },
   },
