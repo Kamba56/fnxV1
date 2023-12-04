@@ -21,7 +21,7 @@ const Footer = () => {
           <Link data-aos="fade-right" to='/contact' className={`px-12 text-center flex items-center justify-center py-3 text-base font-medium rounded text-white hover:shadow-lg bg-blue-50`}>Contact</Link>
         </div>
 
-        <ul className="flex gap-3 justify-between font-medium underline text-base">
+        <ul className="flex gap-3 justify-between font-medium underline text-base text-center">
           <NavLink to='/about/disclaimer'>DISCLAIMER</NavLink>
           <Link to='/about/privacy'>PRIVACY POLICY</Link>
           <Link to='/about/sustainability'>SFDR  Disclosures</Link>
