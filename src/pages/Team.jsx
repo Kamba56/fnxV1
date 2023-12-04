@@ -66,7 +66,7 @@ const Team = () => {
       <OHeadline image="bg-team" title="Our Team" text="Our people make our company. They can make yours too." />
 
       <div className="flex flex-col gap-10 items-center pt-32">
-        <article className="max-w-[390px] min-w-72 w-full flex-col items-center hover:shadow-lg gap-3 flex cursor-pointer pb-7" onClick={() => {handlePop(0)}}>
+        <article className="max-w-[390px] min-w-72 w-full flex-col items-center shadow-md lg:shadow-none lg:hover:shadow-md gap-3 flex cursor-pointer pb-7" onClick={() => {handlePop(0)}}>
           <figure className="w-full h-auto max-h-[258px] rounded-lg shadow-md overflow-hidden bg-transparent">
             {members[0].image ? <img src={members[0].image} alt="Avatar" /> : <img src={avatar} alt="Avatar" />}
           </figure>
