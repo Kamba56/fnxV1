@@ -12,6 +12,8 @@ import AboutRoot from "./pages/AboutRoot";
 import Disclaimer from "./pages/DIsclaimer";
 import Sustain from "./pages/Sustain";
 import Privacy from "./pages/Privacy";
+import ServiceOne from "./pages/ServiceOne";
+import ServiceTwo from "./pages/ServiceTwo";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +26,17 @@ const router = createBrowserRouter([
       },
       {
         path:'services',
-        element: <Services />
+        element: <Services />,
+        children: [
+          {
+            path: '',
+            element: <ServiceOne />
+          },
+          {
+            path: 'approach',
+            element: <ServiceTwo />
+          }
+        ]
       },
       {
         path: 'values',
