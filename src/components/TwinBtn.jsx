@@ -1,10 +1,12 @@
-import Button from "./Button"
+import { NavLink } from "react-router-dom";
 
 const TwinBtn = () => {
   return (
     <section className="flex order-last lg:order-first flex-col gap-4 items-stretch lg:pt-24 pt-6 min-w-[300px]">
-      <Button linkTo="/services/" color="brown" name="Our Comprehensive Service" />
-      <Button linkTo="/services/approach" color="white" name="Our Approach" />
+      
+    <NavLink data-aos="fade-right" to="/services/" className={({isActive}) => (`px-12 text-center hover:shadow-lg flex items-center justify-center py-3 text-base font-normal rounded ${!isActive ? 'text-brown-50 border border-brown-50 bg-white hover:text-brown-100 hover:border-brown-100 active:text-brown-50 active:border-brown-50' : 'text-white bg-brown-50 hover:bg-brown-100 active:bg-brown-50 hover:shadow-lg'}`)}>Our Comprehensive Service</NavLink>
+
+    <NavLink data-aos="fade-right" to="/services/approach" className={({isActive}) => (`px-12 text-center hover:shadow-lg flex items-center justify-center py-3 text-base font-normal rounded ${!isActive ? 'text-brown-50 border border-brown-50 bg-white hover:text-brown-100 hover:border-brown-100 active:text-brown-50 active:border-brown-50' : 'text-white bg-brown-50 hover:bg-brown-100 active:bg-brown-50 hover:shadow-lg'}`)}>Our Approach</NavLink>
     </section>
   )
 };

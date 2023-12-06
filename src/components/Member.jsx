@@ -9,8 +9,8 @@ const Member = (props) => {
         {member.image ? <img src={member.image} alt="Avatar" /> : <img src={avatar} alt="Avatar" />}
       </figure>
 
-      <h3 className="font-medium text-2xl">{member.name}</h3>
-      <p className="text-lg">{member.position}</p>
+      <h3 className="font-medium text-xl">{member.name}</h3>
+      <p className="text-base">{member.position}</p>
     </article>
   )
 };

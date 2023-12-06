@@ -29,7 +29,7 @@ const AboutHeader = () => {
         <button onClick={closeNav} className="absolute top-12 right-16">
           <GrClose size={30} />
         </button>
-        <ul className="flex flex-col items-center md:items-start gap-6 text-2xl font-normal w-full">
+        <ul className="flex flex-col items-center md:items-start gap-6 text-xl font-light w-full">
 
           <li>
             <NavLink className={({isActive}) => (
@@ -44,19 +44,19 @@ const AboutHeader = () => {
           <li>
             <NavLink className={({isActive}) => (
               isActive ? "text-brown-50 underline" : "text-blue-50"
-            )} onClick={closeNav} to='values'>Values</NavLink>
+            )} onClick={closeNav} to='/values'>Values</NavLink>
           </li>
 
           <li>
             <NavLink className={({isActive}) => (
               isActive ? "text-brown-50 underline" : "text-blue-50"
-            )} onClick={closeNav} to='team'>Team</NavLink>
+            )} onClick={closeNav} to='/team'>Team</NavLink>
           </li>
 
           <li>
             <NavLink className={({isActive}) => (
               isActive ? "text-brown-50 underline" : "text-blue-50"
-            )} to="contact" onClick={closeNav}>Contact</NavLink>
+            )} to="/contact" onClick={closeNav}>Contact</NavLink>
           </li>
         </ul>
       </div>)}

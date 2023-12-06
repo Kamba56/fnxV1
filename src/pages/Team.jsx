@@ -3,7 +3,6 @@ import Member from "../components/Member";
 import OHeadline from "../components/OtherHeadline"
 import Player from "../components/Player";
 import mark from "../assets/images/mark.jpeg"
-import andy from "../assets/images/andy.png"
 import avatar from "../assets/images/avatar.png";
 
 const Team = () => {
@@ -71,8 +70,8 @@ const Team = () => {
             {members[0].image ? <img src={members[0].image} alt="Avatar" /> : <img src={avatar} alt="Avatar" />}
           </figure>
 
-          <h3 className="font-medium text-2xl text-center">{members[0].name}</h3>
-          <p className="text-lg">{members[0].position}</p>
+          <h3 className="font-medium text-xl text-center">{members[0].name}</h3>
+          <p className="text-Base">{members[0].position}</p>
         </article>
 
         <div className="p-8 py-20 px-[4%] w-full m-auto flex justify-center gap-10 flex-wrap">
