@@ -3,7 +3,7 @@ import Card from "./Card";
 const HomeBody = () => {
   return (
     <section className="m-auto py-28 px-[4%] max-w-[1440px] flex flex-col gap-14">
-      <h2 data-aos="fade-right" className="font-semibold text-3xl">How We Manage And Secure Your Investments </h2>
+      <h2 data-aos="fade-right" className="font-medium text-3xl">How We Manage And Secure Your Investments </h2>
 
       <div className="flex flex-wrap gap-6 w-fit m-auto">
         <Card title="Expect more from your Management Company" text="Demand a team which has real and direct experience of managing UCITS and AIF Funds, raising assets, and regulatory matters in the US, UK and Europe. Demand an agile firm which adapts to new customer demands efficiently and effectively" />

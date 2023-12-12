@@ -39,7 +39,7 @@ const Header = () => {
           <li>
             <NavLink className={({isActive}) => (
               isActive ? "text-brown-50 underline" : "text-blue-50"
-            )} onClick={closeNav} to='/services'>Services</NavLink>
+            )} onClick={closeNav} to='/services/'>Services</NavLink>
           </li>
           <li>
             <NavLink className={({isActive}) => (
