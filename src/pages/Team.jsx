@@ -74,7 +74,7 @@ const Team = () => {
           <p className="text-Base">{members[0].position}</p>
         </article>
 
-        <div className="p-8 py-20 px-[4%] w-full m-auto flex justify-center gap-10 flex-wrap">
+        <div className="p-8 py-20 px-[4%] w-full m-auto flex justify-center gap-10 flex-wrap lg:grid lg:grid-cols-2 lg:justify-center max-w-5xl">
           {
             members.map((member, i) => {
               if (i == 0) {
