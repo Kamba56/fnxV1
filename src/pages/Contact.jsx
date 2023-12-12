@@ -9,24 +9,24 @@ const Contact = () => {
 
         <section className="flex flex-col gap-20 lg:flex-row lg:justify-evenly">
           <form action="#" className="flex flex-col gap-8 bg-white w-full max-w-3xl p-10 shadow-xl rounded-xl">
-            <div className="flex flex-col gap-3 lg:flex-row lg:justify-between lg:gap-11">
+            <div className="flex flex-col gap-3 lg:flex-row lg:justify-between lg:gap-11 lg:items-center">
               <label className="font-medium text-base lg:w-1/3" htmlFor="name">Your full name</label>
-              <input data-aos="fade-right" data-aos-duration="1200" type="text" name="name" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-14 lg:w-2/3 pl-4" placeholder="John Doe" />
+              <input data-aos="fade-right" data-aos-duration="1200" type="text" name="name" className="border border-blue-50 bg-white rounded-md h-14 lg:w-2/3 pl-4" placeholder="Enter your full name" />
             </div>
 
-            <div className="flex flex-col gap-3 lg:flex-row lg:gap-11">
+            <div className="flex flex-col gap-3 lg:flex-row lg:gap-11 lg:items-center">
               <label className="font-medium text-base lg:w-1/3" htmlFor="email">Your email</label>
-              <input data-aos="fade-right" data-aos-duration="1200" type="email" name="email" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-14 lg:w-2/3 pl-4" placeholder="johndoe@example.com" />
+              <input data-aos="fade-right" data-aos-duration="1200" type="email" name="email" className="border border-blue-50 bg-white rounded-md h-14 lg:w-2/3 pl-4" placeholder="Enter your email" />
             </div>
 
-            <div className="flex flex-col gap-3 lg:flex-row lg:gap-11">
+            <div className="flex flex-col gap-3 lg:flex-row lg:gap-11 lg:items-center">
               <label className="font-medium text-base lg:w-1/3" htmlFor="website">Company website</label>
-              <input data-aos="fade-right" data-aos-duration="1200" type="text" name="website" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-14 lg:w-2/3 pl-4" placeholder="example.com" />
+              <input data-aos="fade-right" data-aos-duration="1200" type="text" name="website" className="border border-blue-50 bg-white rounded-md h-14 lg:w-2/3 pl-4" placeholder="Enter your company website" />
             </div>
 
             <div className="flex flex-col gap-3 lg:flex-row lg:gap-11">
-              <label className="font-medium text-base lg:w-1/3" htmlFor="message">Message</label>
-              <textarea data-aos="fade-right" data-aos-duration="1200" name="message" className="border border-blue-50 bg-[#f3f8fb] rounded-md h-32 lg:w-2/3 pl-4" placeholder="Write your message here"></textarea>
+              <label className="font-medium text-base lg:w-1/3 lg:pt-5" htmlFor="message">Message</label>
+              <textarea data-aos="fade-right" data-aos-duration="1200" name="message" className="border border-blue-50 pt-2 bg-white rounded-md h-32 lg:w-2/3 pl-4" placeholder="Write your message here"></textarea>
             </div>
 
             <button data-aos="fade-right" data-aos-duration="1200" type="submit" className="font-medium text-lg bg-brown-50 hover:bg-brown-100 hover:shadow-lg rounded-md py-4 px-10 self-end text-white">Send Message</button>
