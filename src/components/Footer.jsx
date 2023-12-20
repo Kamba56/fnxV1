@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/images/log.svg";
+import FooterNav from "./FooterNav";
 
 const Footer = () => {
   return (
@@ -10,9 +11,11 @@ const Footer = () => {
           <img src={logo} alt="Logo" />
         </Link>
 
-        <p className="text-blue-10 text-base">FNX Dublin Limited is registered in the Republic of Ireland with <span className="font-semibold text-brown-50">Company Number 682114 </span>. FNX Dublin Limited is authorised under AIFMD by Central Bank of Ireland with <span className="font-semibold text-brown-50">registration number C441669 </span>.</p>
+        <FooterNav />
 
-        <p className="font-light text-sm">©️ 2023 FNX Dublin Limited, All Rights Reserved.</p>
+        <p className="text-blue-10 text-sm">FNX Dublin Limited is registered in the Republic of Ireland with <span className="font-semibold text-brown-50">Company Number 682114 </span>. FNX Dublin Limited is authorised under AIFMD by Central Bank of Ireland with <span className="font-semibold text-brown-50">registration number C441669 </span>.</p>
+
+        <p className="font-light text-xs">©️ 2023 FNX Dublin Limited, All Rights Reserved.</p>
       </div>
 
       <div className="flex-1 pt-10 pb-12 px-[5%] order-1 lg:order-2 hidden lg:flex flex-col items-start gap-8 bg-brown-50">
@@ -38,12 +41,14 @@ const Footer = () => {
           <img src={logo} alt="Logo" />
         </Link>
 
+        <FooterNav />
+
         <div className="flex rounded-lg p-[2px] items-center w-full max-w-lg justify-between bg-white">
           <input type="email" placeholder="Your Email Address" name="" id="" className="bg-none pl-3 border-none outline-none w-full" />
           <button className="px-6 text-center flex items-center justify-center py-3 text-base font-normal rounded text-white hover:shadow-lg bg-brown-50">Subscribe</button>
         </div>
 
-        <p className="text-blue-10 text-base">FNX Dublin Limited is registered in the Republic of Ireland with <span className="font-semibold text-brown-50">Company Number 682114 </span>. FNX Dublin Limited is authorised under AIFMD by Central Bank of Ireland with <span className="font-semibold text-brown-50">registration number C441669 </span>.</p>
+        <p className="text-blue-10 text-sm">FNX Dublin Limited is registered in the Republic of Ireland with <span className="font-semibold text-brown-50">Company Number 682114 </span>. FNX Dublin Limited is authorised under AIFMD by Central Bank of Ireland with <span className="font-semibold text-brown-50">registration number C441669 </span>.</p>
       </div>
 
       <div className="flex-1 pt-10 pb-16 px-[5%] flex lg:hidden flex-col items-start gap-8">
@@ -60,7 +65,7 @@ const Footer = () => {
           <Link to='/about/sustainability'>SFDR  Disclosures</Link>
         </ul>
 
-        <p className="font-light text-sm">©️ 2023 FNX Dublin Limited, All Rights Reserved.</p>
+        <p className="font-light text-xs">©️ 2023 FNX Dublin Limited, All Rights Reserved.</p>
       </div>
 
 

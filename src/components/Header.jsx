@@ -25,7 +25,7 @@ const Header = () => {
         <BiMenuAltRight size={45} />
       </button>
 
-      {nav && (<div data-aos="fade-down-left" className="w-full md:w-[33%] bg-white fixed top-0 right-0 z-[1000] h-screen flex items-center md:pl-10 lg:pl-16">
+      {nav && (<div data-aos="fade-down-left" className="w-full md:w-[33%] bg-white fixed top-0 right-0 z-[1000] h-screen flex pt-28 md:pt-0 md:items-center md:pl-10 lg:pl-16">
         <button onClick={closeNav} className="absolute top-12 right-16">
           <GrClose size={30} />
         </button>

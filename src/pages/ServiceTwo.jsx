@@ -3,8 +3,8 @@ import Card from "../components/Card";
 const ServiceTwo = () => {
   return (
     <div className="flex flex-col gap-6">
-      <h2 data-aos="fade-right"  className="text-2xl font-medium">Our Approach</h2>
-      <p data-aos="fade-right" className="text-base">Our approach to servicing your needs is characterized by:</p>
+      <h2 data-aos="fade-up"  className="text-2xl font-medium">Our Approach</h2>
+      <p data-aos="fade-up" className="text-base">Our approach to servicing your needs is characterized by:</p>
       
       <div className="flex flex-wrap gap-6">
         <Card title="Client Centric Solutions" text="We tailor our services to meet your unique requirements, ensuring that your goals are our top priority." />

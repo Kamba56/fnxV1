@@ -30,6 +30,16 @@ export default {
       },
       cursor: {
         'close': "url('../images/cursor.png'), pointer"
+      },
+      keyframes: {
+        invert: {
+          '0%': {filter: 'invert(0)'},
+          '50%': {filter: 'invert(1)'},
+          '100%': {filter: 'invert(0)'}
+        }
+      },
+      animation: {
+        invert: 'invert 2s ease-in'
       }
     },
   },
