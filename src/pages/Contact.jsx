@@ -31,7 +31,7 @@ const Contact = () => {
 
             <button data-aos="fade-up" data-aos-duration="1200" type="submit" className="font-medium text-lg bg-brown-50 hover:bg-brown-100 hover:shadow-lg rounded-md py-4 px-10 self-end text-white">Send Message</button>
           </form>
-          <article className="flex flex-col gap-5 items-center text-white text-center text-base lg:self-end pb-0">
+          <article className="flex flex-col gap-2 items-center text-white text-center text-base lg:self-end pb-0">
             <h2 className="font-medium text-xl">FNX Dublin Limited</h2>
             <p>Unit 1, Block 1</p>
             <p>Northwood Court</p>

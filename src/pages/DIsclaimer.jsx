@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 const Disclaimer = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
+
   return (
     <main className="flex flex-col gap-11 items-center px-[6%] max-w-[1440px] m-auto py-20 pt-32">
       <h1 className="font-medium text-4xl">Disclaimer</h1>

@@ -39,7 +39,7 @@ export default {
         }
       },
       animation: {
-        invert: 'invert 2s ease-in'
+        invert: 'invert 1s ease-in'
       }
     },
   },

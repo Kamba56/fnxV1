@@ -77,17 +77,17 @@ const App = () => {
     AOS.init();
 
     // Scroll to top on route change
-    const handleScrollToTop = () => {
-      window.scrollTo(0, 0);
-    };
+    // const handleScrollToTop = () => {
+    //   window.scrollTo(0, 0);
+    // };
 
     // Add event listener for route changes
-    const cleanup = router.subscribe(handleScrollToTop);
+    // const cleanup = router.subscribe(handleScrollToTop);
 
     // Clean up the event listener when the component unmounts
-    return () => {
-      cleanup();
-    };
+    // return () => {
+    //   cleanup();
+    // };
   }, [])
   return (
     <RouterProvider router={router} />
