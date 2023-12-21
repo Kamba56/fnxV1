@@ -12,14 +12,14 @@ const Footer = () => {
         </Link>
 
         <FooterNav />
-        <ul className="flex gap-3 justify-between font-medium underline text-sm text-center">
+        
+
+        <p className="text-blue-10 text-sm">FNX Dublin Limited is registered in the Republic of Ireland with <span className="font-semibold text-brown-50">Company Number 682114 </span>. FNX Dublin Limited is authorised under AIFMD by Central Bank of Ireland with <span className="font-semibold text-brown-50">registration number C441669 </span>.</p>
+<ul className="flex gap-3 justify-between font-medium underline text-sm text-center">
           <NavLink to='/about/disclaimer'>Disclaimer</NavLink>
           <Link to='/about/privacy'>Privacy Policy</Link>
           <Link to='/about/sustainability'>SFDR  Disclosures</Link>
         </ul>
-
-        <p className="text-blue-10 text-sm">FNX Dublin Limited is registered in the Republic of Ireland with <span className="font-semibold text-brown-50">Company Number 682114 </span>. FNX Dublin Limited is authorised under AIFMD by Central Bank of Ireland with <span className="font-semibold text-brown-50">registration number C441669 </span>.</p>
-
         <p className="font-light text-xs">©️ 2023 FNX Dublin Limited, All Rights Reserved.</p>
         
       </div>
