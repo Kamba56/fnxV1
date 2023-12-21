@@ -24,6 +24,8 @@ const Footer = () => {
       </div>
 
       <div className="flex-1 pt-10 pb-12 px-[5%] order-1 lg:order-2 hidden lg:flex flex-col items-start gap-8 bg-brown-50">
+        <h3 className="font-medium text-base">Stay in the loop!</h3>
+<h3 className="font-medium text-base text-blue-50">Subscribe to our newsletter for service updates</h3>
         <div className="flex rounded-lg p-[2px] items-center w-full max-w-lg justify-between bg-white">
           <input type="email" placeholder="Your Email Address" name="" id="" className="bg-none pl-3 border-none outline-none w-full" />
           <button className="px-6 text-center flex items-center justify-center py-3 text-base font-normal rounded text-white hover:shadow-lg bg-blue-50">Subscribe</button>
@@ -37,6 +39,9 @@ const Footer = () => {
         </Link>
 
         <FooterNav />
+<h3 className="font-medium text-base">Stay in the loop!</h3>
+<h3 className="font-medium text-base text-blue-50">Subscribe to our newsletter for service updates</h3>
+        
 
         <div className="flex rounded-lg p-[2px] items-center w-full max-w-lg justify-between bg-white">
           <input type="email" placeholder="Your Email Address" name="" id="" className="bg-none pl-3 border-none outline-none w-full" />
