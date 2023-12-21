@@ -40,7 +40,7 @@ const Footer = () => {
 
         <FooterNav />
 <h3 className="font-medium text-base">Stay in the loop!</h3>
-<h3 className="font-medium text-base text-blue-50">Subscribe to our newsletter for service updates</h3>
+<h3 className="font-medium text-base text-brown-50">Subscribe to our newsletter for service updates</h3>
         
 
         <div className="flex rounded-lg p-[2px] items-center w-full max-w-lg justify-between bg-white">
