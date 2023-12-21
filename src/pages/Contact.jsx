@@ -2,9 +2,9 @@ const Contact = () => {
   return (
     <main className="bg-black pt-40 min-h-screen bg-contact pb-16 bg-no-repeat bg-cover bg-left lg:bg-center relative z-[-2]">
       <section className="flex flex-col gap-20 m-auto p-7 z-30 w-full max-w-[1540px] px-[5%]">
-        <section className="flex flex-col gap-10 text-white self-center items-center">
+        <section className="flex flex-col gap-8 text-white self-center items-center">
           <h1 className="font-medium text-3xl">Contact our FNX team</h1>
-          <h3 className="text-lg font-medium">Our team is very happy to answer your questions. <br />Fill out the form and we’ll be in touch as soon as possible</h3>
+          <h3 className="text-lg text-center font-medium">Our team is very happy to answer your questions. <br />Fill out the form and we’ll be in touch as soon as possible</h3>
         </section>
 
         <section className="flex flex-col gap-20 lg:flex-row lg:justify-evenly">
