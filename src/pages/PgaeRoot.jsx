@@ -37,7 +37,7 @@ const PageRoot = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 2000));
         setLoading(false);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -53,7 +53,7 @@ const PageRoot = () => {
     {
       loading ? (
         <div ref={vantaRef} className="bg-white h-screen w-full flex justify-center items-center z-[100000000]">
-          <figure className="w-24 animate-invert">
+          <figure className="animate-invert w-32">
             <img src={logo} alt="" />
           </figure>
         </div>
